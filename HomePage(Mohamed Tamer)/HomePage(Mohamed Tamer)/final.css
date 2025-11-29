@@ -1,0 +1,139 @@
+body{
+    background-color:#2c3e50;
+}
+#c{
+    color: white;
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 5px 5px 10px ;
+}
+#s{
+    color: white;
+    font-size: 40px;
+     text-shadow: 5px 5px 10px ;
+}
+.suits{
+    border: solid;
+    width: fit-content;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.imgs{
+    border-radius: 15px 15px 0px 0px;
+}
+#img1{
+    height: 400px;
+}
+#img2,#img3,#img4{
+    width: 300px;
+    height: 400px;
+}
+.suits section  a,button{
+    border-radius: 15px;
+}
+#sdiv1{
+    display: flex;
+    justify-content: space-around;
+}
+#sdiv2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.suits:hover{
+    transform: scale(1.1);
+     box-shadow: 5px 4px 7px white;
+}
+#a{
+    color: white;
+    font-size: 40px;
+}
+.acces{
+    border: solid;
+    width: fit-content;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.imgs{
+    border-radius: 15px 15px 0px 0px;
+}
+#img6{
+    height: 345px;
+}
+#img7{
+    height: 300px;
+}
+#adiv1{
+    display: flex;
+    justify-content: space-around;
+}
+#adiv2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.acces:hover{
+    transform: scale(1.1);
+     box-shadow: 5px 4px 7px white;
+}
+#sh{
+    color: white;
+    font-size: 40px;
+    
+}
+.shoes{
+    border: solid;
+    width: fit-content;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.imgs{
+    border-radius: 15px 15px 0px 0px;
+}
+#img9{
+    height: 350px;
+}
+#img10{
+    height: 350px;
+}
+#img11{
+    height: 350px;
+}
+#img12{
+    height: 350px;
+}
+#shdiv1{
+    display: flex;
+    justify-content: space-around;
+}
+#shdiv2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.shoes:hover{
+    transform: scale(1.1);
+     box-shadow: 5px 4px 7px white;
+}
+.footer{
+    color: white;
+    transform: translateX(500px);
+}
+p,h4{
+    color: white;
+      text-shadow: 5px 5px 10px ;
+    
+}
+button{
+    border-radius: 25px 0px 25px 0px;
+    transition: 0.4s;
+}
+button:hover{
+    border-radius: 0px 25px 0px 25px;
+    background-color: black;
+    color: white;
+}
+
+
