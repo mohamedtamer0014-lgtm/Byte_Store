@@ -160,6 +160,10 @@ h2 {
   display: flexbox;
   transition: 0.3s;
 }
+ #lightning_necklace:hover{
+   transform: scale(1.1);
+   box-shadow: 2px 3px 8px white;
+}
 #gold_necklace{
   margin-right: auto;
   border-style: solid;
@@ -168,18 +172,31 @@ h2 {
   background-color: rgb(163, 163, 163);
   display: flexbox;
   transition: 0.3s;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -432px;
+}
+#gold_necklace:hover{
+  transform: scale(1.1);
+   box-shadow: 2px 3px 8px white;
 }
 #lacoste_bracelet{
-  margin-right: auto;
+  margin-top: -432px;
   border-style: solid;
   border-radius: 30px;
   width: 300px;
   background-color: rgb(163, 163, 163);
   display: flexbox;
-  transition: 0.3s;    
+  transition: 0.3s;
+  margin-left: auto;    
+}
+#lacoste_bracelet:hover{
+  transform: scale(1.1);
+   box-shadow: 2px 3px 8px white;
 }
 #white_bracelet{
   margin-right: auto;
+  margin-left: auto;
   border-style: solid;
   border-radius: 30px;
   width: 300px;
@@ -187,9 +204,12 @@ h2 {
   display: flexbox;
   transition: 0.3s    
 }
-.necklace :hover{
- transform: scale(1.1);
+#white_bracelet:hover{
+    transform: scale(1.1);
+   box-shadow: 2px 3px 8px white;
 }
+
+
 .acc_btn{
   border-radius: 10px;
   transition: 0.3;
@@ -208,4 +228,12 @@ h2 {
 .add-btn{
     border-radius: 5px;
     border-color: #d1dbb6;
+}
+
+
+.footer-btn2{
+    border-style:solid ;
+    color: azure;
+    border-radius: 5px 7px ;
+    background-color: rgb(4, 113, 55);
 }
