@@ -1,0 +1,26 @@
+body{
+         background-color: rgb(2, 56, 17);
+         color: rgb(255, 255, 255);
+         border-style:solid ;
+         width:fit-content ;
+         margin-left: 600px;
+         
+          margin-top: 300px;
+          font-size: 70px;
+          height: 100px;
+          
+         
+        }
+        h3{
+          border-style:none ;
+          color: blanchedalmond;
+          
+          
+        }
+        #log{
+          border-style:solid ;
+
+              }
+      
+
+
