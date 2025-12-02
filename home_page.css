@@ -5,7 +5,7 @@ body{
 
    background-size: 400% 400%;
    animation: bganimation 15s infinite;
-   text-shadow: 1px 2px 5px white;
+   
 }
 
 @keyframes  bganimation {
@@ -288,21 +288,29 @@ main #accessories #aa:hover{
 
 }
 
-#footer{
-     transform: translateY(100px);
-    
-     border-radius: 15px;
-     color: rgb(0, 0, 0);
-     text-shadow: 2px 5xp 8px rgb(227, 227, 227);
+
 
 }
 
 
-.pfoo a,button{
-
-margin-left: auto;
-margin-bottom: -80px;
+footer {
+margin-top: 150px;
+text-align: center;
+padding: 20px;
+background: rgba(255,255,255,0.2);
+border-radius: 15px;
+color: #000;
+backdrop-filter: blur(3px);
+font-size: 18px;
 }
+
+
+.pfoo a, .pfoo button {
+margin-top: 15px;
+}
+
+
+
 
 
 
