@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Byte Store</title>
+    <link rel="stylesheet" href="css/home_page.css">
+    <script  src="js/home_page.js" defer></script>
+  </head>
+  <body>
+    
+    <!-- welcom اول صفحه قلنا عليها بتاعت header-->
+    <header id="home">
+      <div id="nav">
+        <!--هنا اسم الاستور-->
+        <h1>Byte Store</h1>
+        <!--هنا navbar-->
+        <nav>
+          <a href="basket.html"><button>🛒</button></a>
+          <a href="log.html" target="_blank">Log in</a>
+          <a class="nav1" href="#home">Home</a>
+          <a  class="nav1"  href="#features">Features</a>
+          <br />
+        </nav>
+      </div>
+      <!--     هنا welcom-->
+      <section id="welcome">
+        <h2>Byte Store</h2>
+        <p >
+         Welcome to <span>Byte Store</span><br />
+          for all men's clothing and accessoring
+        </p>
+        <!--   welcom اللي تحت  featuresزرار  -->
+        <a id="fetwel" href="#features"><button style="font-size: larger;"  >Features</button></a>
+        <br />
+        <br />
+        
+      </section>
+        <!-- اللي في الجمب اليي قلنا عليها  navbar-->
+    <div id="left_nav">
+      <button class="hide" id="open">open</button>
+      <button  id="close">close</button>
+      <br>
+      <div class="container">
+        <form>
+          <label for="search">Search</label>
+          <input
+          type="text"
+          id="search"
+          placeholder="search..."
+          onkeyup="searchSite()"
+          />
+          <ul id="searchRessults"></ul>
+        </form>
+        <p><a href="log.html" target="_blank">log in/out</a></p> <br />
+      <p><a href="#home">Home</a></p> <br />
+        <p><a href="#features">Features</a></p> <br />
+        <p><a href="basket.html">🛒</a></p> <br />
+      </div>
+    </div>     
+    </header>
+    <!----------------------------------------------------------------------------------------------------------------------------->
+    <!--    features هنا -->
+    <main id="features">
+      <!-- street wear-->
+      <div  id="street_wear">
+        <img
+          src="images/haabf737047514e7f8c3_eEljj-768x768.jpg"
+          alt="img"
+          width="200px"
+        />
+        <p>
+          There are some jackets and streetwear<br />
+          items that are in the latest fashion
+        </p>
+        <a id="as" href="StreetWear.html"><button>🛒</button></a>
+        <br />
+        <br />
+      </div>
+      <!------------------------------------------------------------------>
+      <!--  classic -->
+      <div id="classic">
+        <img
+          src="images/c975a16b6306b25faeb23b937768f54a.jpg"
+          alt="img"
+          width="250px"
+        />
+        <p>
+          If you want to be a charismatic and stylish man,<br />
+          choose this interview.
+        </p>
+        <a id="ac" href="final.html"><button>🛒</button></a>
+      </div>
+      <!----------------------------------------------------------------------->
+      <!-- accessories-->
+      <div id="accessories">
+        <img
+          src="images/blog-top-accessories.jpg"
+          alt="img"
+          width="250px"
+          height="150px"
+        />
+        <p>
+          Here are the best accessories to<br />
+          complete your elegant look.
+        </p>
+
+        <a id="aa" href="Gasser.html"><button>🛒</button></a>
+      </div>
+    </main>
+    <footer>
+      <a class="pfoo" href="#home"><button>Home</button></a> <br />     
+      <p id="footer">
+     This is our project, which is about a men's clothing and accessories store. Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quidem incidunt dolor iure amet eligendi autem obcaecati quo? Maiores, illum?
+        <br>
+          Developed by Eng. Mohamed Tamer, Eng. Bugzz, Eng. Anas, and Eng. Jasser
+  
+  
+  </p>
+
+
+
+ </footer>
+
+
+        
+  </body>
+</html>

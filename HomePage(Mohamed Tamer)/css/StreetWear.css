@@ -1,0 +1,256 @@
+/*لون الصفحة والخط*/
+body {
+  background-color: #2c3e50;
+  font-family: Verdana, Tahoma, sans-serif;
+  text-shadow: 2px 4px 7px white;
+}
+
+/*لون العناوين*/
+h2 {
+  color: darkgreen;
+
+}
+
+/*كلاس الهوديز*/
+.Hoodies_div {
+  font-size: larger;
+}
+
+/*كلاس البراجراف*/
+.paragraph {
+  font-weight: bold;
+  font-size: 15px;
+}
+/*الزراير*/
+.btn {
+  border-radius: 7px;
+  background-color: #f1f3e0;
+  border-color: #f1f3e0;
+  border-style: solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 80px;
+}
+.btn:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #d1dbb6;
+}
+#div1_hoodies {
+  margin-right: auto;
+  border-style: solid;
+  border-radius: 15px;
+  width: 300px;
+  height: 450px;
+  display: flexbox;
+  transition: 0.3s;
+}
+#div1_hoodies:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 4px 7px white;
+}
+#div2_hoodies {
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-radius: 15px;
+  width: 300px;
+  height: 450px;
+  margin-top: -472px;
+  display: flexbox;
+  transition: 0.3s;
+}
+#div2_hoodies:hover {
+  transform: scale(1.1);
+   box-shadow: 5px 4px 7px white;
+}
+#div3_hoodies {
+  margin-left: auto;
+  border-style: solid;
+  border-radius: 15px;
+  width: 300px;
+  height: 450px;
+  margin-top: -472px;
+  display: flexbox;
+  transition: 0.3s;
+}
+#div3_hoodies:hover {
+  transform: scale(1.1);
+   box-shadow: 5px 4px 7px white;
+}
+#div1_sweat {
+  border-style: solid;
+  border-radius: 15px;
+  width: 250px;
+  height: 450px;
+  display: flexbox;
+  transition: 0.3s;
+}
+#div1_sweat:hover {
+  transform: scale(1.1);
+   box-shadow: 5px 4px 7px white;
+}
+#div2_sweat {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -472px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 250px;
+  height: 450px;
+  display: flexbox;
+  transition: 0.3s;
+}
+#div2_sweat:hover {
+  transform: scale(1.1);
+   box-shadow: 5px 4px 7px white;
+}
+#div3_sweat {
+  margin-left: auto;
+  margin-top: -472px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 250px;
+  height: 450px;
+  display: flexbox;
+  transition: 0.3s;
+}
+#div3_sweat:hover {
+  transform: scale(1.1);
+   box-shadow: 5px 4px 7px white;
+}
+#div1_Sneaker {
+  margin-right: auto;
+  border-style: solid;
+  border-radius: 15px;
+  width: 350px;
+  height: 250px;
+  display: flexbox;
+  transition: 0.3s;
+}
+#div1_Sneaker:hover {
+  transform: scale(1.1);
+   box-shadow: 5px 4px 7px white;
+}
+#div2_Sneaker {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -272px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 350px;
+  height: 250px;
+  display: flexbox;
+  transition: 0.3s;
+}
+#div2_Sneaker:hover {
+  transform: scale(1.1);
+   box-shadow: 5px 4px 7px white;
+}
+#div3_Sneaker {
+  margin-left: auto;
+  margin-top: -272px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 350px;
+  height: 250px;
+  display: flexbox;
+  transition: 0.3s;
+}
+#div3_Sneaker:hover {
+  transform: scale(1.1);
+   box-shadow: 5px 4px 7px white;
+}
+
+#pic1 {
+  border-radius: 15px 15px 0px 0px;
+  width: 300px;
+  height: 350px;
+}
+#pic2 {
+  border-radius: 15px 15px 0px 0px;
+  width: 300px;
+  height: 350px;
+}
+#pic3 {
+  border-radius: 15px 15px 0px 0px;
+  width: 300px;
+  height: 350px;
+}
+#pic4 {
+  border-radius: 15px 15px 0px 0px;
+  width: 250px;
+  height: 350px;
+}
+#pic5 {
+  border-radius: 15px 15px 0px 0px;
+  width: 250px;
+  height: 350px;
+}
+#pic6 {
+  border-radius: 15px 15px 0px 0px;
+  width: 250px;
+  height: 350px;
+}
+#pic7 {
+  border-radius: 15px 15px 0px 0px;
+  width: 350px;
+  height: 250px;
+}
+#pic8 {
+  border-radius: 15px 15px 0px 0px;
+  width: 350px;
+  height: 250px;
+}
+#pic9 {
+  border-radius: 15px 15px 0px 0px;
+  width: 350px;
+  height: 250px;
+}
+#p1hoodies {
+  margin-left: 50px;
+}
+#p2hoodies {
+  margin-left: 60px;
+}
+#p3hoodies {
+  margin-left: 70px;
+}
+
+footer {
+  font-size: large;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.add-btn{
+
+        border-radius: 7px;
+  background-color: #f1f3e0;
+  border-color: #f1f3e0;
+  border-style: solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 80px;
+
+
+}
+
+
+.add-btn:hover{
+          cursor: pointer;
+  transition: 0.3s;
+  background-color: #d1dbb6;
+
+
+}
