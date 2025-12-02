@@ -1,0 +1,313 @@
+body{
+  margin: 0;
+  padding: 0;
+   background-image: linear-gradient(125deg, #2c3e50 , #07602c, #2980b9, #e74c3c, #8e44ad);
+
+   background-size: 400% 400%;
+   animation: bganimation 15s infinite;
+  
+}
+
+@keyframes  bganimation {
+
+         0%{
+                  background-position: 0% 50%;
+         }
+
+         50%{
+                  background-position: 100% 50%;
+         }
+
+         100%{
+                  background-position: 0% 50%;
+         }
+
+
+
+  
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+#nav{
+    background-color: #787780;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 40px;
+    
+    position:sticky;
+    top: 5px;
+    
+    width: 100%;
+    z-index: 1000;
+          
+}
+
+
+
+nav{
+      word-spacing: 5px;
+     direction: rtl;  
+ margin-top: -50px;  
+  
+}
+  nav button{
+      transition: 0.3s;
+  }
+    nav button:hover{
+        background-color: rgb(94, 113, 100);
+        cursor: pointer;
+    }
+           
+#welcome{
+      text-align: center;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-top: 130px;
+}
+
+   #welcome h2{
+            font-size: 120px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            transform: translateY(20px);
+            color: rgba(255, 255, 255, 0.7);
+
+   }
+   #welcome p{
+                     font-size: larger;
+                     transform: translateY(-50px);
+
+   }
+  
+#welcome button{
+
+           color: #110665;
+           background-color: #cdd4cd;
+       margin: 20px;
+       margin-top: -100px;
+      font-style: oblique;
+      border-radius: 30px; 
+      transition: 0.3s;
+
+}
+    #welcome button:hover{
+
+                        background-color: rgb(163, 10, 10);
+                        transform: scale(1.05);
+                        cursor: pointer;
+    }
+
+
+  #left_nav{
+     
+            line-height: 40px; 
+            margin-top: -400px;
+  }
+
+
+.container{
+      background-color:#8f3b03;
+      width: fit-content;
+      height: 600px;
+      border-radius:5px 25px 25px 5px;
+      transition: 0.5s;
+      overflow: hidden;
+
+}
+
+
+.container p :hover{
+      background: rgb(57, 36, 219);
+      cursor: pointer;
+      
+}
+
+#left_nav button{
+background-color: #740924;
+font-style: oblique;
+color: aliceblue;
+border-radius: 5px;
+border-style:solid ;
+transition: 0.3s;
+       margin-left: auto;
+      
+}
+
+#left_nav button:hover{
+background-color: rgb(9, 4, 102);
+transform: scale(1.5);
+cursor: pointer;
+color: aqua;
+
+}
+
+.hide{
+      display: none;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*   feature    هنا */
+
+main{
+           margin-top: 630px;
+         
+}
+
+main #street_wear{
+
+                    border-style:solid ;
+                    width: 300px;
+                    height: 450px;
+                    border-radius: 20px;
+                    
+               transition: 0.4s;
+
+}
+main #street_wear:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 4px 7px white;
+}
+
+main #street_wear #as,button{
+
+        
+           margin-left:130px ;
+           border-radius: 6px;
+           
+           transition: 0.3;
+}
+main #street_wear #as,button:hover{
+
+      background-color: #740924;
+       cursor: pointer;
+
+}
+
+
+main #street_wear img{
+
+    height: 300px;
+  width: 300px; 
+border-radius: 20px 20px 0px 0px;
+margin-left: 0px;
+
+}
+
+/*--------------------------------------------------------------------------------*/
+ /*       classic */
+
+#classic{
+              border-style:solid ;
+               width: fit-content;
+           margin-left:auto;
+           margin-right: auto; 
+           margin-top: -455px;
+           width: 300px;
+           height: 460px;
+           border-radius: 20px;
+           
+ transition: 0.3s;
+
+}
+main #classic:hover{
+       transform: scale(1.1);
+       box-shadow: 5px 4px 7px white;
+}
+
+main #classic img{
+
+    height: 300px;
+  width: 300px; 
+border-radius: 20px 20px 0px 0px;
+margin-left: 0px;
+
+}
+
+main #classic #ac,button{
+  margin-left: 125px;
+  margin-top: -200px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+main #classic #ac,button:hover{
+
+      background-color: #740924;
+       cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------*/
+     /*   accessories    */
+
+          
+ main #accessories{
+                   border-style:solid ;
+               width: fit-content;
+ 
+                margin-left:auto;
+                          margin-top: -465px;
+           width: 300px;
+           height: 460px;
+           border-radius: 20px;
+           transition: 0.3s;
+
+ }
+ main #accessories:hover{
+   transform: scale(1.1);
+   box-shadow: 5px 4px 7px white;
+ }
+
+main #accessories img{
+
+        
+    height: 300px;
+  width: 300px; 
+border-radius: 20px 20px 0px 0px;
+margin-left: 0px;
+}
+
+main #accessories #aa{
+ margin-left:130px ;
+           border-radius: 6px;
+           
+           transition: 0.3;
+
+}
+ 
+main #accessories #aa:hover{
+
+      background-color: #740924;
+       cursor: pointer;
+
+}
+
+footer {
+margin-top: 150px;
+text-align: center;
+padding: 20px;
+background: rgba(255,255,255,0.2);
+border-radius: 15px;
+color: #000;
+backdrop-filter: blur(3px);
+font-size: 18px;
+}
+
+
+.pfoo a, .pfoo button {
+margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
